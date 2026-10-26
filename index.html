@@ -125,13 +125,14 @@ h2.sec{font-family:var(--display);font-weight:800;font-size:var(--step-3);line-h
 .know{background:var(--white);border-block:1px solid var(--line)}
 .know-grid{display:grid;gap:1.8rem}
 @media(min-width:860px){.know-grid{grid-template-columns:repeat(3,1fr);gap:2.4rem}}
-.know h3{font-family:var(--display);font-weight:800;font-size:var(--step-2);line-height:1;margin:0 0 .5rem;color:var(--navy)}
+.know h3{font-family:var(--display);font-weight:800;font-size:var(--step-2);line-height:1.05;margin:0 0 .8rem;color:var(--navy);text-wrap:balance}
+.know-grid>div{border-top:2px solid var(--navy);padding-top:1.1rem}
 .know p{margin:0;color:var(--muted)}
-.know .rule{height:6px;width:56px;background:var(--yellow);margin-bottom:1rem;border-radius:3px}
+.know .rule{display:none}
 
 footer{background:var(--navy);color:#C5D2E2;padding:2rem 0 2.4rem;font-size:.95rem}
 footer p{margin:0 0 .4rem;max-width:44rem}
-footer a{color:var(--yellow)}
+footer a{color:var(--yellow);display:inline-block;margin-top:.5rem;padding:.35rem 0}
 
 @media(max-width:480px){
   .facts{grid-template-columns:1fr 1fr;gap:.6rem 1.2rem}
@@ -303,8 +304,8 @@ footer a{color:var(--yellow)}
         </div>
         <div>
           <div class="rule"></div>
-          <h3>Same SkyBridge flight home, one day apart going</h3>
-          <p>Options 1 and 4 both return Monday Nov 16 at 8:15am. Leaving Friday instead of Thursday costs $43 more each ($86 for both) and gives us one less night in Detroit.</p>
+          <h3>Leaving Friday instead of Thursday costs $43 more each</h3>
+          <p>Options 1 and 4 are the same SkyBridge flight home on Monday Nov 16 at 8:15am. Option 4 leaves a day later, adds $86 for both of us, and gives us one less night in Detroit.</p>
         </div>
       </div>
     </div>
